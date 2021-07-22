@@ -8,7 +8,7 @@ In this project, I will use the [MTA Turnstile Dataset](http://web.mta.info/deve
 ## Design
 ---
 - The purpose of this project is to answer the client's question: *"What is the best location to open the authentic Vietnamese restaurant?"* By looking at the **analysis and visualization**, we would know the top 5 potential neighborhoods to start the business. 
-- Moreover, I will levarage the [**Square API**](https://developer.foursquare.com/docs/api-reference/venues/explore/) to retrieve the most common venues with respect to the neighborhood to get more insights about the data. The process is designed to potentially produce the most optimized results and answer the business' critical question.
+- Moreover, I will levarage the [**Foursquare API**](https://developer.foursquare.com/docs/api-reference/venues/explore/) to retrieve the most common venues with respect to the neighborhood to get more insights about the data. The process is designed to potentially produce the most optimized results and answer the business' critical question.
 
 ## Data
 ---
@@ -24,7 +24,7 @@ Almost all raw data that we pull from the internet is messy and this dataset is 
 - There are rows that contain *enormous* value of entries (outliers), which is not good for the dataset's integrity and dropping them is also making the dataset is a bit cleaner.
 
 ##### Using API
-Getting more relevant data almost always helps. By levaraging [**Square API**](https://developer.foursquare.com/docs/api-reference/venues/explore/) to explore nearby venues of the top stations, we can determine which station has more potential to grow as restaurant owners.
+Getting more relevant data almost always helps. By levaraging [**Foursquare API**](https://developer.foursquare.com/docs/api-reference/venues/explore/) to explore nearby venues of the top stations, we can determine which station has more potential to grow as restaurant owners.
 
 ## Tools
 ---
