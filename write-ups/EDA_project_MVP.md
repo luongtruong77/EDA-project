@@ -1,7 +1,7 @@
 # EDA project MVP
 ---
-![](top_5_barchart.png)
-![](top_5_station_traffic.png)
+![](../figures/top_5_barchart.png)
+![](../figures/top_5_station_traffic.png)
 
 - I utilized `pandas, matplotlib and seaborn` to extract information of the `MTA dataset` to get the top 5 stations with the most traffic in New York City between `8AM-10PM` from the last 17 weeks until now.
 - The 34 ST-PENN Station is the station which has the most traffic where in the last 17 weeks, it peaks 5 million ENTRIES; followed by 86 St station with a little over 3.5 million and 23 St station with over 3.4 million.
